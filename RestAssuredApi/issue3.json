@@ -1,0 +1,15 @@
+{
+    "fields": {
+       "project":
+       { 
+           "key": "MAY"
+       },
+       
+       "description": "Created with data file 3",
+       "summary":"Jira Issue Three",
+       "issuetype": {
+       	   "description": "Learning RestAssured",
+           "name": "Bug"
+       }
+   }
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20693" started-at="2020-06-16T17:20:43 IST" finished-at="2020-06-16T17:21:04 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20693" started-at="2020-06-16T17:20:43 IST" finished-at="2020-06-16T17:21:04 IST">
+      <class name="zohoCutomer.DeleteCustomer">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:zohoCutomer.DeleteCustomer@23faf8f2]" name="baseSetup" is-config="true" duration-ms="2402" started-at="2020-06-16T17:20:41 IST" finished-at="2020-06-16T17:20:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:zohoCutomer.DeleteCustomer@23faf8f2]" name="createCustomer" duration-ms="2005" started-at="2020-06-16T17:21:02 IST" depends-on-methods="zohoCutomer.UpdateCustomer.updateCustomer" finished-at="2020-06-16T17:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+      </class> <!-- zohoCutomer.DeleteCustomer -->
+      <class name="zohoCutomer.UpdateCustomer">
+        <test-method status="PASS" signature="updateCustomer()[pri:0, instance:zohoCutomer.UpdateCustomer@2d6eabae]" name="updateCustomer" duration-ms="2320" started-at="2020-06-16T17:20:59 IST" depends-on-methods="zohoCutomer.CreateCustomer.createCustomer" finished-at="2020-06-16T17:21:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateCustomer -->
+      </class> <!-- zohoCutomer.UpdateCustomer -->
+      <class name="zohoCutomer.CreateCustomer">
+        <test-method status="PASS" signature="createCustomer()[pri:0, instance:zohoCutomer.CreateCustomer@4e7dc304]" name="createCustomer" duration-ms="16058" started-at="2020-06-16T17:20:43 IST" finished-at="2020-06-16T17:20:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCustomer -->
+      </class> <!-- zohoCutomer.CreateCustomer -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

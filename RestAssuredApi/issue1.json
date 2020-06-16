@@ -1,0 +1,15 @@
+{
+    "fields": {
+       "project":
+       { 
+           "key": "MAY"
+       },
+       
+       "description": "including Depedencies along with chaining",
+       "summary":"Chaining Requests",
+       "issuetype": {
+       	   "description": "Learning request chaining concepts",
+           "name": "Bug"
+       }
+   }
+}
