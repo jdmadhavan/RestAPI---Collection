@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="zohoCutomer.UpdateCustomer">
+      <class name="uiBank.ApplyLoan">
         <methods>
-          <include name="updateCustomer"/>
+          <include name="loanApply"/>
           <include name="baseSetup"/>
         </methods>
-      </class> <!-- zohoCutomer.UpdateCustomer -->
-      <class name="zohoCutomer.CreateCustomer">
+      </class> <!-- uiBank.ApplyLoan -->
+      <class name="uiBank.GetLoanStatusAndVerify">
         <methods>
+          <include name="accountCreation"/>
           <include name="baseSetup"/>
-          <include name="createCustomer"/>
         </methods>
-      </class> <!-- zohoCutomer.CreateCustomer -->
+      </class> <!-- uiBank.GetLoanStatusAndVerify -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -6,7 +6,7 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
-public class BookingHotel extends BaseRequestClass {
+public class BookingHotel extends BaseRequestCalses {
 	
 	@Test(dependsOnMethods= {"hotelsBooking.CheckRoomAvailabilityAndGetTheRoomRates.checkingRoomAvailabilityandGettingPrice"})
 	public void booking()

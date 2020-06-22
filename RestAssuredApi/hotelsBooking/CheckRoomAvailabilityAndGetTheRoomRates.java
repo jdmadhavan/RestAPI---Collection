@@ -19,7 +19,7 @@ import io.restassured.response.Response;
 
 
 
-public class CheckRoomAvailabilityAndGetTheRoomRates extends BaseRequestClass {
+public class CheckRoomAvailabilityAndGetTheRoomRates extends BaseRequestCalses {
 	
 	List<Map<Object, Object>> rates;
 	@Test
