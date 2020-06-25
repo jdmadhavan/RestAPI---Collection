@@ -12,7 +12,9 @@ public class CreateCustomer extends BaseRequestCalses {
 	
 	@Test
 	public void createCustomer()
-	{File jsonFilePath = new File("data4.json");
+	{
+		
+		File jsonFilePath = new File("data4.json");
 
 	Response response = RestAssured
 			.given().log().all()
