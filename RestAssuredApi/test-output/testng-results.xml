@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="19022" started-at="2020-06-22T18:35:43 IST" finished-at="2020-06-22T18:36:02 IST">
+  <suite name="Default suite" duration-ms="31531" started-at="2020-06-25T21:57:41 IST" finished-at="2020-06-25T21:58:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="19022" started-at="2020-06-22T18:35:43 IST" finished-at="2020-06-22T18:36:02 IST">
-      <class name="uiBank.ApplyLoan">
-        <test-method status="PASS" signature="baseSetup()[pri:0, instance:uiBank.ApplyLoan@d44fc21]" name="baseSetup" is-config="true" duration-ms="2202" started-at="2020-06-22T18:35:41 IST" finished-at="2020-06-22T18:35:43 IST">
+    <test name="Default test" duration-ms="31531" started-at="2020-06-25T21:57:41 IST" finished-at="2020-06-25T21:58:13 IST">
+      <class name="tomtom.CreateFenceAndCheckTheFenceDetails">
+        <test-method status="PASS" signature="baseSetup()[pri:0, instance:tomtom.CreateFenceAndCheckTheFenceDetails@d44fc21]" name="baseSetup" is-config="true" duration-ms="1990" started-at="2020-06-25T21:57:39 IST" finished-at="2020-06-25T21:57:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- baseSetup -->
-        <test-method status="PASS" signature="loanApply()[pri:0, instance:uiBank.ApplyLoan@d44fc21]" name="loanApply" duration-ms="17026" started-at="2020-06-22T18:35:43 IST" finished-at="2020-06-22T18:36:00 IST">
+        <test-method status="PASS" signature="addfence()[pri:0, instance:tomtom.CreateFenceAndCheckTheFenceDetails@d44fc21]" name="addfence" duration-ms="12481" started-at="2020-06-25T21:58:00 IST" depends-on-methods="tomtom.AddProjectAndCheckCreatedProjectIsAvailable.addProject" finished-at="2020-06-25T21:58:13 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loanApply -->
-      </class> <!-- uiBank.ApplyLoan -->
-      <class name="uiBank.GetLoanStatusAndVerify">
-        <test-method status="PASS" signature="accountCreation()[pri:0, instance:uiBank.GetLoanStatusAndVerify@23faf8f2]" name="accountCreation" duration-ms="1763" started-at="2020-06-22T18:36:00 IST" depends-on-methods="uiBank.ApplyLoan.loanApply" finished-at="2020-06-22T18:36:02 IST">
+        </test-method> <!-- addfence -->
+      </class> <!-- tomtom.CreateFenceAndCheckTheFenceDetails -->
+      <class name="tomtom.AddProjectAndCheckCreatedProjectIsAvailable">
+        <test-method status="PASS" signature="addProject()[pri:0, instance:tomtom.AddProjectAndCheckCreatedProjectIsAvailable@23faf8f2]" name="addProject" duration-ms="18900" started-at="2020-06-25T21:57:42 IST" finished-at="2020-06-25T21:58:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accountCreation -->
-      </class> <!-- uiBank.GetLoanStatusAndVerify -->
+        </test-method> <!-- addProject -->
+      </class> <!-- tomtom.AddProjectAndCheckCreatedProjectIsAvailable -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

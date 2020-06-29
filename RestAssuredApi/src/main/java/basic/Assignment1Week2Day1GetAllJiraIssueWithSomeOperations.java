@@ -20,6 +20,7 @@ public class Assignment1Week2Day1GetAllJiraIssueWithSomeOperations {
     	RestAssured.authentication=RestAssured.preemptive().basic("rajalakshmi.govindarajan@testleaf.com", "kEJxzmhkQzvdeP8iysWN2D1B");
     	
     	
+    	
     	Map<String,String> parameterRequest=new HashMap<String, String>();
     	parameterRequest.put("jql", "project=MAY");
     	parameterRequest.put("maxResults","500");

@@ -3,18 +3,18 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="uiBank.ApplyLoan">
+      <class name="tomtom.AddProjectAndCheckCreatedProjectIsAvailable">
         <methods>
-          <include name="loanApply"/>
           <include name="baseSetup"/>
+          <include name="addProject"/>
         </methods>
-      </class> <!-- uiBank.ApplyLoan -->
-      <class name="uiBank.GetLoanStatusAndVerify">
+      </class> <!-- tomtom.AddProjectAndCheckCreatedProjectIsAvailable -->
+      <class name="tomtom.CreateFenceAndCheckTheFence">
         <methods>
-          <include name="accountCreation"/>
           <include name="baseSetup"/>
+          <include name="addfence"/>
         </methods>
-      </class> <!-- uiBank.GetLoanStatusAndVerify -->
+      </class> <!-- tomtom.CreateFenceAndCheckTheFence -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
